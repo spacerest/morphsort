@@ -1,0 +1,36 @@
+name: Word feedback
+description: Report a problem with a dictionary entry
+title: "[word feedback] "
+labels: ["word-feedback"]
+body:
+  - type: input
+    id: pair
+    attributes:
+      label: Language pair
+      description: Target language - home language
+    validations:
+      required: true
+
+  - type: textarea
+    id: word_details
+    attributes:
+      label: Word details
+      description: The word details from the app
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Describe the issue. Which part is wrong, and what should it say?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
+      description: If you know what the correct value should be, put it here.
+    validations:
+      required: false
