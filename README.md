@@ -1,8 +1,8 @@
 # MorphSort
 
-MorphSort is an Android word-building puzzle game: sort colored segments water-sort style, where each segment is a morpheme that assembles into a real word — passive language learning through a sorting puzzle.
+MorphSort is a language-learning puzzle game: sort colored rectangles to assemble morphemes into words.
 
-📖 **[How to play — visual guide](how-to-play/README.md)**
+**[How to play: visual guide](how-to-play/README.md)**
 
 ## Issues & feedback
 
